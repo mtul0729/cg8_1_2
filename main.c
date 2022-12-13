@@ -57,6 +57,7 @@ int main() {
             cnt++;
         }
     }
+    //对指针冒泡排序（升序排成员变量times）
     for (int i = 0; i < cnt - 1; ++i) {
         for (int j = 0; j < cnt - i - 1; ++j) {
             if (p[j]->num > p[j + 1]->num) {
