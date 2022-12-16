@@ -2,7 +2,7 @@
 
 struct num_container {
     int num; //标准输入的数值
-    unsigned times;//数组被输入的次数
+    unsigned times;//数值被输入的次数
 };
 typedef struct num_container num_container;
 
